@@ -1,0 +1,237 @@
+/* Fundo geral */
+body {
+    background-color: #f7fafd;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+/* Container central */
+.container {
+    width: 90%;
+    max-width: 650px;
+    background: #fff;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.08);
+}
+
+/* Logo */
+.logo img {
+    width: 160px;
+    margin-bottom: 10px;
+}
+
+/* Títulos */
+h2 {
+    color: #222;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+p {
+    color: #555;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+/* Botões de valores */
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.value-btn {
+    background: #0084ff;
+    color: #fff;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+.value-btn:hover {
+    background: #006bd4;
+}
+
+/* Input */
+#total {
+    width: 60%;
+    padding: 10px;
+    border: 2px solid #d9d9d9;
+    border-radius: 6px;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+/* Logos de pagamento */
+.payments {
+    margin-top: 25px;
+}
+
+.payments h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.payments img {
+    width: 60px;
+    margin: 8px;
+    opacity: 0.9;
+    transition: 0.2s;
+}
+
+.payments img:hover {
+    opacity: 1;
+}
+
+/* Footer pequeno */
+footer {
+    margin-top: 15px;
+    padding: 5px;
+    font-size: 12px;
+    color: #777;
+    text-align: center;
+}
+/* Valor convertido em destaque */
+.valor-box {
+    background: linear-gradient(135deg, #4a90e2, #007bff);
+    color: #fff;
+    padding: 14px 20px;
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+    border: 2px solid rgba(255,255,255,0.3);
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+    .container {
+        padding: 20px;
+    }
+
+    #total {
+        width: 80%;
+    }
+
+    .value-btn {
+        padding: 8px 14px;
+        font-size: 14px;
+    }
+
+    .payments img {
+        width: 50px;
+        margin: 6px;
+    }
+}
+@media (max-width: 320px) {
+    .value-btn {
+        padding: 6px 10px;
+        font-size: 13px;
+    }
+}
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Fundo da página */
+body {
+    background-color: #f7fafd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Caixa principal */
+.box {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* Título */
+.box h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Valor da doação */
+#valorDoacao {
+    color: #007bff;
+}
+
+/* Inputs do formulário */
+.box input {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+/* Foco no input */
+.box input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Botão */
+.box button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hover do botão */
+.box button:hover {
+    background-color: #0056b3;
+}
+
+.box button :active{
+    background-color: #003d80;
+}
+
+.donate {
+    margin-top: 15px;
+    padding: 5px;
+    font-size: 12px;
+    color: #777;
+    text-align: center;
+}
+

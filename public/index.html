@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doação Segura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- LOGO -->
+        <div class="logo">
+            <img src=" alt="Logo">
+        </div>
+
+        <h2>Quanto você gostaria de doar hoje?</h2>
+        <p>Todas as doações impactam diretamente nossa organização e ajudam a promover nossa missão.</p>
+
+        <!-- BOTÕES DE VALORES -->
+        <div class="buttons">
+            <button class="value-btn" onclick="addAmount(10)">10€</button>
+            <button class="value-btn" onclick="addAmount(50)">50€</button>
+            <button class="value-btn" onclick="addAmount(100)">100€</button>
+            <button class="value-btn" onclick="addAmount(500)">500€</button>
+            <button class="value-btn" onclick="addAmount(700)">700€</button>
+            <button class="value-btn" onclick="addAmount(1000)">1000€</button>
+        </div>
+
+        <p>Escolha um valor ou digite no campo abaixo:</p>
+        <input type="number" id="total" placeholder="Total CVE">
+
+        <p id="euro-display">≈ 0 €</p>
+
+        <br>
+        <button type="button" onclick="criarPagamento()">Donation Now</button>
+        
+
+        <!-- MÉTODOS DE PAGAMENTO -->
+        <div class="payments">
+            <h3>Métodos de Pagamentos:</h3>
+            <img src="https://seeklogo.com/images/V/visa-secure-logo-70E56CF5EA-seeklogo.com.png">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Mastercard-logo.png">
+            <img src="https://cdn-icons-png.flaticon.com/512/196/196578.png">
+            <img src="https://cdn-icons-png.flaticon.com/512/349/349228.png">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
